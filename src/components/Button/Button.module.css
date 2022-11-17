@@ -1,0 +1,27 @@
+.button {
+    box-sizing: border-box;
+    border: none;
+    padding: 9px 25px 11px;
+    height: 40px;
+    background-color: blue;
+    opacity: .5;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.button:disabled {
+    background-color: black;
+    opacity: .65;
+}
+
+.button:not([disabled]) {
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: blue;
+    opacity: .45;
+}

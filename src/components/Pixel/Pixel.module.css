@@ -1,0 +1,21 @@
+.pixel {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.pixel:hover {
+    background-color: green;
+}
+
+.pixel__active {
+    background-color: yellow;
+}
+
+.pixel__shadow {
+    background-color: red;
+}
+
+.pixel__selected {
+    background-color: black;
+}
